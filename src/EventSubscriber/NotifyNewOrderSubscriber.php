@@ -3,9 +3,9 @@
 namespace App\EventSubscriber;
 
 use App\Core\ShipmentManagement;
+use App\Event\OrderedEvent;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use App\Event\OrderedEvent;
 
 class NotifyNewOrderSubscriber implements EventSubscriberInterface
 {

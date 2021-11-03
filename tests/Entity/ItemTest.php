@@ -11,6 +11,7 @@ class ItemTest extends TestCase
     /**
      * @test
      * @dataProvider dataProviderForReduceStock
+     *
      * @throws OutOfStockException
      */
     public function reduceStock($stock, $quantity): void
@@ -40,6 +41,7 @@ class ItemTest extends TestCase
 
     /**
      * @test
+     *
      * @throws OutOfStockException
      */
     public function reduceStockIfOutOfStock()

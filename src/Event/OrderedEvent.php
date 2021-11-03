@@ -11,9 +11,6 @@ class OrderedEvent extends Event
     {
     }
 
-    /**
-     * @return Order
-     */
     public function getOrder(): Order
     {
         return $this->order;

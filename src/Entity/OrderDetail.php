@@ -109,15 +109,15 @@ class OrderDetail
 //        return $this;
 //    }
 
-public function getItem(): ?Item
-{
-    return $this->item;
-}
+    public function getItem(): ?Item
+    {
+        return $this->item;
+    }
 
-public function setItem(?Item $item): self
-{
-    $this->item = $item;
+    public function setItem(?Item $item): self
+    {
+        $this->item = $item;
 
-    return $this;
-}
+        return $this;
+    }
 }

@@ -17,5 +17,4 @@ class ShipmentManagementDataService implements ShipmentManagementDataServiceInte
             ->findAll()
             ;
     }
-
 }

@@ -27,7 +27,7 @@ class ShipmentManagementTest extends TestCase
         $notifications = $management->createNotifications($order);
 
         $this->assertCount(count($clerks), $notifications);
-        for ($i = 0; $i < count($clerks); $i ++) {
+        for ($i = 0; $i < count($clerks); ++$i ) {
             $clerk = $clerks[$i];
             $notification = $notifications[$i];
             $this->assertSame($clerk, $notification->getDeliveryClerk());

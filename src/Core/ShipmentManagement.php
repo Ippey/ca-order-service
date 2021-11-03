@@ -12,7 +12,6 @@ class ShipmentManagement
     }
 
     /**
-     * @param Order $order
      * @return array<Notification>
      */
     public function createNotifications(Order $order): array
