@@ -51,7 +51,7 @@ class ItemTest extends TestCase
             ->setStock($stock)
         ;
 
-        $this->expectExceptionCode(OutOfStockException::class);
+        $this->expectException(OutOfStockException::class);
         $item->reduceStock($quantity);
     }
 }
